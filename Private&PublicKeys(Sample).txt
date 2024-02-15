@@ -1,0 +1,21 @@
+# In here I made just an example of Vendors private abd public keys (A.Mehrban)
+#It should be imported in the main program. (A.Mehrban)
+
+
+
+# Private Key (example_private_key.pem)
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEA5kBr+IKMnIYkRO9mEacEYZMvy/LLMIwnp0qFW2QLV8JdCl7L
+nN7wIVANTw2hImfLZ36LoljC3Hg8S2Q2h3PcrgIC7pspWWTsNunGs4t7CfKRMJ88
+6v/uJv64d1+9Thy0bIxeZZ4qGo88kNnmOaSZ7W6JDF7JhJ+eLWuZZw==
+-----END RSA PRIVATE KEY-----
+
+
+
+
+
+# Public Key (example_public_key.pem)
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5kBr+IKMnIYkRO9mEacE
+pTtF7RX7UV8pzHhvOQrYJilWSkNBJa9ceC3qfexN5FvQIvMDg9uUcLjztL4P3IZ
+-----END PUBLIC KEY-----
