@@ -22,3 +22,32 @@ Compute the firmware code's SHA-256 hash.
 Initialization of Equipment:
 
 Make an Equipment object by using the serial number.
+--------------------------------------------------------------------------------------------------
+Project Name: OpenRAN Equipment Node Initialization with Blockchain Verification
+
+Description:
+
+This Python program implements the Equipment Node Initialization process described in Section III.D of a paper discussing blockchain-based security for OpenRAN equipment.
+It simulates connecting to a Quorum blockchain and sending a serial number and firmware hash for verification using a smart contract.
+
+Purpose:
+
+This code serves as a demonstration of the core flow for verifying equipment authenticity and integrity in OpenRAN networks using blockchain technology. 
+It showcases how Python libraries like web3.py can interact with a permissioned blockchain like Quorum.
+
+Requirements:
+
+Python 3.6+
+web3.py library (install with pip install web3)
+Access to a Quorum blockchain network and deployed smart contract (not included in this code)
+
+Replace placeholders:
+Update quorum_provider with your Quorum node RPC endpoint.
+Replace contract_address with the actual address of your deployed smart contract.
+Modify YOUR_PRIVATE_KEY with your private key for interacting with the contract.
+Ensure the verifyEquipment function call matches your contract's arguments and return values.
+Run the program:
+Execute python openran_equipment_verifiaction_web3.py.
+Observe output:
+The program will simulate sending a transaction with the equipment data and wait for confirmation.
+It will then print a message indicating successful verification or potential issues.
