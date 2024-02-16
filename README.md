@@ -34,9 +34,6 @@ Install required libraries: pip install cryptography
 Replace placeholder values in the if __name__ == "__main__": block with actual data.
 Run the code: python firmware_verification.py
 
-The sign_with_private_key and verify_with_public_key functions are placeholders and need to be implemented using the chosen cryptographic library (e.g., cryptography).
-Properly manage cryptographic keys in a secure manner for real-world use.
-I hope this overview is helpful! Feel free to adapt and build upon this code for your specific needs.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project Name 2: OpenRAN Equipment Node Initialization with Blockchain Verification
 File_Name: openran_equipment_verifiaction_web3
